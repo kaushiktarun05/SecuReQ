@@ -1,0 +1,310 @@
+.image-3-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-3-wrapper {
+  align-self: stretch;
+  width: 524px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.instance-child {
+  position: relative;
+  background-color: var(--color-black);
+  width: 32px;
+  height: 32px;
+}
+.login {
+  position: relative;
+  font-weight: 500;
+}
+.see-your-growth,
+.see-your-growth1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 736px;
+}
+.see-your-growth1 {
+  top: 28px;
+  color: var(--color-gray-400);
+}
+.see-your-growth-and-get-suppor-parent {
+  align-self: stretch;
+  position: relative;
+  height: 74px;
+  font-size: var(--font-size-mini);
+}
+.login-parent,
+.rectangle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-parent {
+  gap: 39px;
+}
+.rectangle-parent {
+  padding: var(--padding-3xs);
+  gap: var(--gap-10xl);
+}
+.email,
+.instance-item {
+  font-family: var(--font-poppins);
+}
+.email {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue);
+  text-align: left;
+}
+.instance-item {
+  border: 1px solid var(--color-gray-100);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke-100);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-parent,
+.instance-parent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.email-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  justify-content: center;
+}
+.instance-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.enter-you-email {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-400);
+  text-align: left;
+}
+.enter-you-email-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-parent2,
+.instance-container {
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.email-parent2 {
+  flex: 1;
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  justify-content: center;
+}
+.instance-container {
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.group-child {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.i-agree-to {
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+}
+.privacy-policies {
+  font-weight: 500;
+}
+.and,
+.privacy-policies {
+  font-family: var(--font-poppins);
+}
+.privacy-policies-and {
+  color: var(--color-darkslateblue);
+}
+.span1 {
+  color: var(--color-black);
+}
+.fees {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslateblue);
+}
+.remember-me {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: var(--font-size-base);
+  text-align: left;
+}
+.rectangle-group {
+  position: relative;
+  width: 401px;
+  height: 24px;
+}
+.forgot-password {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: none;
+}
+.group-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.sign-up {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.sign-up-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: var(--padding-mini) var(--padding-3xs);
+  background-color: var(--color-darkslateblue);
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 247px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.already-have-an {
+  color: var(--color-gray-200);
+}
+.already-have-an-container {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  text-align: left;
+}
+.already-have-an-account-log-i-wrapper {
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.input-collection,
+.login-container,
+.login-details {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-3xs);
+}
+.input-collection {
+  height: 550px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.login-container,
+.login-details {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.login-details {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.login-container {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  height: 821px;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.register,
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup-page {
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 2px 992px 278px transparent, 1px 635px 254px rgba(0, 0, 0, 0.01),
+    1px 357px 214px rgba(0, 0, 0, 0.05), 0 159px 159px rgba(0, 0, 0, 0.09),
+    0 40px 87px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+  width: 1440px;
+  height: 1021px;
+  padding: var(--padding-87xl) var(--padding-36xl);
+  box-sizing: border-box;
+}
+.register {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-poppins);
+}
