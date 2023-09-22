@@ -6,6 +6,7 @@
   height: 2px;
 }
 .nav {
+  
   display: flex;
   flex-direction: column;
   padding: var(--padding-3xs);
