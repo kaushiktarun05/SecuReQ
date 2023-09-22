@@ -1,0 +1,26 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file alias="background">images/background.jpg</file>
+		<file alias="background_blur">images/background_blur.jpg</file>
+		<file alias="mobileradar_image">images/mobileradar_image.jpg</file>
+		<file alias="broadcast_image">images/84162365.png</file>
+		<file alias="seal">icons/seal.png</file>
+		<file alias="SCFS">icons/SCFS.png</file>
+		<file alias="eye">icons/eye.png</file>
+		<file alias="clear">icons/clear.png</file>
+		<file alias="info">icons/info.png</file>
+		<file alias="barcode">icons/barcode.png</file>
+		<file alias="broadcast">icons/broadcast.png</file>
+		<file alias="broadcast_tower">icons/broadcast_tower.png</file>
+		<file alias="key_lock">icons/key_lock.png</file>
+		<file alias="key_lock2">icons/key_lock2.png</file>
+		<file alias="key">icons/key.png</file>
+		<file alias="settings">icons/settings.png</file>
+		<file alias="unlock">icons/unlock.png</file>
+		<file alias="scan">icons/scan.png</file>
+		<file alias="radar">icons/radar.png</file>
+		<file alias="radar_sweep">icons/radar_sweep.png</file>
+		<file alias="ear">icons/ear.png</file>
+    </qresource>
+</RCC>
